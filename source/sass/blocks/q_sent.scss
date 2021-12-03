@@ -1,0 +1,51 @@
+.q_sent {
+  padding: 150px;
+  align-items: center;
+}
+
+.q_sent-content {
+  display: flex;
+  align-items: center;
+}
+
+.q_sent-title {
+  margin-left: 140px;
+}
+
+.q_sent__title-h2 {
+  font-family: "NovaFlat-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 75px;
+  color: #FFFFFF;
+  padding-bottom: 28px;
+}
+
+.q_sent__title-p {
+  font-family: "Jost";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 190%;
+  color: #ACACAC;
+  padding-bottom: 50px;
+}
+
+.q_sent-btn {
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #232E37;
+  width: 224px;
+  height: 58px;
+  border: 2px solid #4BFF93;
+  color: #4BFF93;
+
+  &:hover {
+    background-color:#4BFF93;
+    color: black;
+    transition: .3s;
+  }
+}

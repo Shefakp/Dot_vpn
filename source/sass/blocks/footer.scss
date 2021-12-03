@@ -1,0 +1,64 @@
+.footer {
+  border-top: 1px solid #323131;
+  border-bottom: 1px solid #323131;
+}
+
+
+.footer .footer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 88px;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #323131;
+  height: 100%;
+
+  img {
+    margin-right: 46px;
+  }
+}
+
+.footer__list {
+  display: flex;
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  justify-content: space-between;
+  align-items: center;
+  width: 473px;
+  color: #FFFFFF;
+}
+
+.footer__link {
+  &:hover  {
+    color: #4BFF93;
+    transition: .3s;
+  }
+}
+
+.footer__btn {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid #323131;
+  height: 100%;
+}
+
+.footer__button {
+  font-family: "Jost";
+  height: 48px;
+  width: 138px;
+  border: 2px solid #4BFF93;
+  color: #4BFF93;
+  margin-left: 40px;
+
+  &:hover {
+    background-color:#4BFF93;
+    color: black;
+    transition: .3s;
+  }
+}

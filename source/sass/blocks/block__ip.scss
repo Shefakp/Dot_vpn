@@ -1,0 +1,28 @@
+.block__ip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: #2E2F2E;
+  color: white;
+  padding-top: 112px;
+  padding-bottom: 15px;
+}
+
+.ip__pic {
+  margin-right: 15px;
+}
+
+
+.block__ip-p {
+  font-family: "Jost";
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 84%;
+  color: #FFFFFF;
+}
+
+
+.block__ip-red {
+  color: #D94242;
+}

@@ -1,0 +1,102 @@
+.block8 {
+  position: relative;
+  height: 418px;
+  background: #2E2F2E;
+  margin-top: 48px;
+  padding: 55px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url(../img/catalog/frame7.png);
+    background-repeat: no-repeat;
+    right: 0;
+    top: 0;
+    width: 595px;
+    height: 595px;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url(../img/catalog/girl.png);
+    background-repeat: no-repeat;
+    right: 90px;
+    bottom: 0;
+    width: 350px;
+    height: 509px;
+  }
+}
+
+.block8__mo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 465px;
+  padding-bottom: 28px;
+}
+
+.block8__week {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 465px;
+  padding-bottom: 36px;
+}
+
+.block8__h3 {
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+  padding-bottom: 4px;
+}
+
+.block8__p {
+  font-family: "Jost";
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 114%;
+  color: #FFFFFF;
+}
+
+.block8__green-t {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 114%;
+  color: #4BFF93;
+}
+
+.block8__btn {
+  width: 132px;
+  height: 58px;
+  border: 2px solid #4BFF93;
+  font-family: Jost;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #4BFF93;
+
+  &:hover {
+    background-color: #4BFF93;
+    color: black;
+    transition: .3s;
+  }
+}
+
+.block8__disc-h2 {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 190%;
+  color: white;
+  padding-bottom: 19px;
+}
+
+.block8__disc-gt {
+  color: #4BFF93;
+}

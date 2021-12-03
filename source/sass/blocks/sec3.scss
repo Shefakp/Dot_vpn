@@ -1,0 +1,77 @@
+.sec3 {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url(../img/catalog/frame3.png);
+    background-repeat: no-repeat;
+    bottom: -117px;
+    right: 9px;
+    width: 442px;
+    height: 662px;
+  }
+}
+
+
+.block3 {
+  display: flex;
+  padding-top: 103px;
+  border-bottom: 2px solid #323131;
+  padding-bottom: 143px;
+}
+
+.block3__text {
+  position: relative;
+  z-index: 100;
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url(../../img/catalog/sec3-pic1.png);
+    background-repeat: no-repeat;
+    top: -66px;
+    left: 524px;
+    width: 600px;
+    height: 600px;
+  }
+}
+
+.block3__heading {
+  width: 375px;
+  position: relative;
+  padding-bottom: 34px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url(../../img/sprite/arrow.svg);
+    background-repeat: no-repeat;
+    top: 7px;
+    left: -47px;
+    width: 14px;
+    height: 14px;
+  }
+}
+
+.block3__list {
+  margin-left: 47px;
+}
+
+.block3__h3 {
+  font-family: "Jost";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}
+
+.block3__p {
+  font-family: "Jost";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 190%;
+  color: #ACACAC;
+}
+

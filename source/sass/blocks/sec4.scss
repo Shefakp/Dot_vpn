@@ -1,0 +1,47 @@
+.sec4 {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -98px;
+    left: 0;
+    background-image: url(../img/catalog/farme4.png);
+    background-repeat: no-repeat;
+    width: 442px;
+    height: 622px;
+  }
+}
+
+.block4 {
+  display: flex;
+  padding-top: 81px;
+}
+
+.block4__pic {
+  z-index: 3;
+}
+
+.block4__content {
+  margin-left: 130px;
+
+}
+
+.block4__h2 {
+  font-family: "NovaFlat-Regular";
+  font-weight: 300;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+  padding-bottom: 35px;
+}
+
+.block4__p {
+  font-family: "Jost";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 190%;
+  color: #ACACAC;
+  padding-bottom: 52px;
+}

@@ -1,0 +1,69 @@
+.policy {
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url(../img/catalog/pol-pic1.png);
+    background-repeat: no-repeat;
+    top: 170px;
+    right: 0;
+    width: 442px;
+    height: 622px;
+    z-index: -1;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url(../img/catalog/pil-pic2.png);
+    background-repeat: no-repeat;
+    bottom: -550px;
+    left: 0;
+    width: 442px;
+    height: 622px;
+    z-index: -1;
+  }
+}
+
+
+.wrapper__policy {
+  width: 655px;
+  margin: 0 auto;
+}
+
+.policy__h2 {
+  font-family: "NovaFlat-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 93px;
+  padding-bottom: 47px;
+}
+
+.policy__h3 {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
+  padding-top: 30px;
+  padding-bottom: 24px;
+}
+
+.policy__p {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ACACAC;
+}
+
+.pb {
+  padding-bottom: 121px;
+}
+
+

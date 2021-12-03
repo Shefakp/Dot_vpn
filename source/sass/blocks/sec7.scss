@@ -1,0 +1,88 @@
+.block7 {
+  display: flex;
+  align-items: center;
+  padding-top: 109px;
+}
+
+.block7__h2 {
+  font-family: "NovaFlat-Regular";
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 41px;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+}
+
+.block7__list {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #FFFFFF;
+  padding-left: 99px;
+}
+
+.block7__line {
+  padding-bottom: 8px;
+}
+
+
+.dot__red {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 7px;
+    left: -15px;
+    background-color: #B90606;
+    border-radius: 50px;
+  }
+}
+
+.dot__yellow {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 7px;
+    left: -15px;
+    background-color: #FFEB37;
+    border-radius: 50px;
+  }
+}
+
+.dot__blue {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 7px;
+    left: -15px;
+    background-color: #3793FF;
+    border-radius: 50px;
+  }
+}
+
+.dot__pink {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 7px;
+    left: -15px;
+    background-color: #E337FF;
+    border-radius: 50px;
+  }
+}

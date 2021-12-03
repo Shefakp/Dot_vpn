@@ -1,0 +1,64 @@
+.sec5 {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url(../../img/catalog/bg-51.png);
+    top: -51px;
+    left: 219px;
+    width: 1010px;
+    height: 1161px;
+    z-index: -1;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url(../../img/catalog/farme6.png);
+    top: 293px;
+    right: 0;
+    width: 442px;
+    height: 622px;
+    z-index: 0;
+  }
+}
+
+.block5 {
+  text-align: center;
+  padding-top: 354px;
+  padding-bottom: 210px;
+}
+
+.block5__h2 {
+  font-family: "NovaFlat-Regular";
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+  padding-bottom: 80px;
+}
+
+.block5__green-text {
+  color: #4BFF93;
+}
+
+.block5__btn {
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #232E37;
+  width: 224px;
+  height: 58px;
+  border: 2px solid #4BFF93;
+  color: #4BFF93;
+
+  &:hover {
+    background-color:#4BFF93;
+    color: black;
+    transition: .3s;
+  }
+}
